@@ -62,3 +62,19 @@ rCLI is a high-performance, zero-knowledge command-line password manager enginee
   Enter password to save for this service: ************
   Processing cryptographic layout...
   [Success] Entry securely locked for service: 'github'
+
+***
+
+### GETTING STARTED
+
+#### Option A: Quick Install (Recommended)
+- **Windows:** [Download the Pre-Compiled Executable (v1.0.0)](https://github.com/ojas247/password-vault-cli/releases/download/v1.0.0/rCLI.exe)
+- Move the downloaded `secure-pass-cli.exe` into a global folder like `C:\bin\`.
+- Append `C:\bin\` to your Windows System Environment variables to enable global terminal execution.
+
+#### Option B: Compile From Source
+- **Step 1:** `git clone https://github.com/ojas247/password-vault-cli.git`
+- **Step 2:** `cd password-vault-cli`
+- **Step 3:** `cargo build --release`
+
+***
