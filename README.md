@@ -40,15 +40,15 @@ rCLI is a high-performance, zero-knowledge command-line password manager enginee
 ### GETTING STARTED
 
 - **Step 1: Clone the Repository**
-  - `git clone https://github.com/your-username/secure-pass-cli.git`
-  - `cd secure-pass-cli`
+  - `git clone https://github.com/your-username/rCLI.git`
+  - `cd rCLI`
 
 - **Step 2: Compile the Production Binary**
   - To generate a highly optimized native executable with full compiler optimizations enabled, run:
   - `cargo build --release`
 
 - **Step 3: Move Executable to System PATH (Windows Example)**
-  - Move the compiled `.exe` from `.\target\release\secure-pass-cli.exe` to a global folder like `C:\bin\`.
+  - Move the compiled `.exe` from `.\target\release\rCLI.exe` to a global folder like `C:\bin\`.
   - Append `C:\bin\` to your Windows System Environment variables to enable global terminal execution.
 
 ***
@@ -57,7 +57,7 @@ rCLI is a high-performance, zero-knowledge command-line password manager enginee
 
 - **A. Store a New Credential Securely**
   ```bash
-  $ secure-pass-cli add --service github
+  $ rCLI add --service github
   Create/Enter Master Password: ************
   Enter password to save for this service: ************
   Processing cryptographic layout...
@@ -69,11 +69,11 @@ rCLI is a high-performance, zero-knowledge command-line password manager enginee
 
 #### Option A: Quick Install (Recommended)
 - **Windows:** [Download the Pre-Compiled Executable (v1.0.0)](https://github.com/ojas247/password-vault-cli/releases/download/v1.0.0/rCLI.exe)
-- Move the downloaded `secure-pass-cli.exe` into a global folder like `C:\bin\`.
+- Move the downloaded `rCLI.exe` into a global folder like `C:\bin\`.
 - Append `C:\bin\` to your Windows System Environment variables to enable global terminal execution.
 
 #### Option B: Compile From Source
-- **Step 1:** `git clone https://github.com/ojas247/password-vault-cli.git`
+- **Step 1:** `git clone https://github.com/ojas247/password-vault-cl.git`
 - **Step 2:** `cd password-vault-cli`
 - **Step 3:** `cargo build --release`
 
